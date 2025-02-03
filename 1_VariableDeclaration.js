@@ -33,7 +33,7 @@ console.log(myVar); // Throws a ReferenceError, myVar is not accessible outside 
 
 // about const
 // for objects
-const perso1 = {
+const person1 = {
   name: "Nick",
 };
 person1.name = "John"; // this will work ! person variable is not completely reassigned, but mutated
@@ -47,3 +47,7 @@ const person2 = {
 person2.name = "John"; // this will work ! person variable is not completely reassigned, but mutated
 console.log(person2.name); // "John"
 person2 = "Sandra"; // raises an error, because reassignment is not allowed with const declared variables
+
+// backtig
+let name = "Irvan Wijaya";
+console.log(`Test backtig ${name}`);
